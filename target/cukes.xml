@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.932772">
+<testcase classname="Myntra login" name="Home page default login" time="43.932772">
+<system-out><![CDATA[Given User is on Myntra login page..........................................passed
+When user enter gope.ambikaz@gmail.com and 24ambapdo212503..................passed
+And click on login button...................................................passed
+Then Home page is displayed.................................................passed
+And search for Bags for Women...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

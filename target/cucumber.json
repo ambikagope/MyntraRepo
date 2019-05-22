@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Home page default login",
+        "description": "",
+        "id": "myntra-login;home-page-default-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16630262767,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Myntra login page",
+            "match": {
+              "location": "stepDefination.user_is_on_Myntra_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16961323046,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter gope.ambikaz@gmail.com and 24ambapdo212503",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gope.ambikaz@gmail.com",
+                  "offset": 11
+                },
+                {
+                  "val": "24ambapdo212503",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefination.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113892786,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button",
+            "match": {
+              "location": "stepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40515571,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "stepDefination.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10186777357,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "search for Bags for Women",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bags for Women",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefination.search_for_bags_for_women(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Myntra login",
+    "description": "",
+    "id": "myntra-login",
+    "keyword": "Feature",
+    "uri": "ValidateLogin.feature"
+  }
+]
